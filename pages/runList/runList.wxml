@@ -1,0 +1,2 @@
+<!--pages/runList/runList.wxml-->
+<x-runItem/> 

@@ -1,0 +1,27 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1296db",
+    "list": [{
+      "pagePath": "pages/imagesList/imagesList",
+      "text": "图片展示",
+      "iconPath": "/assets/images/tabbar/image_nor.png",
+      "selectedIconPath": "/assets/images/tabbar/image_sel.png"
+    },{
+      "pagePath": "pages/runList/runList",
+      "text": "运动类型",
+      "iconPath": "/assets/images/tabbar/run_nor.png",
+      "selectedIconPath": "/assets/images/tabbar/run_sel.png"
+    }]
+  },
+  "pages": [ 
+    "pages/imagesList/imagesList",
+    "pages/runList/runList"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

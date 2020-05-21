@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "图片展示",
+  "usingComponents": {
+    "x-imageItem": "/components/x-imageItem/x-imageItem"
+  }
+}

@@ -1,0 +1,10 @@
+/* pages/imagesList/imagesList.wxss */
+.imageContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imageContainer x-imageItem {
+  margin-top: 10px;
+}

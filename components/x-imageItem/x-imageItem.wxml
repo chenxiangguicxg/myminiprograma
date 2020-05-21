@@ -1,0 +1,4 @@
+<view class="imageitem">
+  <image class="imageSelf" src="{{imageItem.imageItemUrl}}"  mode=""/>
+  <view class="imageName">{{imageItem.imageItemName}}</view> 
+</view>

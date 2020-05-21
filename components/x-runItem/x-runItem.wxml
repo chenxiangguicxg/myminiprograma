@@ -1,0 +1,23 @@
+<!--components/x-runItem/x-runItem.wxml-->
+<block wx:for="{{runItems}}" wx:for-item="runNameItem" wx:key="id">
+  <view class="runItem {{runNameItem.isStar ? 'runStar' : ''}}">
+    <view class="fm">
+      <image bindtap="_handleTap" class="fmImage" src="/assets/images/1.jpg" mode=""/>
+    </view>
+    <view class="desc">
+      <text class="runName">{{ runNameItem.runName}}</text>
+      <text class="runType">运动类型：{{runNameItem.runType}}</text>
+      <text class="runTime">运动时间：{{runNameItem.runTime}}年</text>
+      <block>
+        <text class="runLevel" wx:if="{{runNameItem.runLevel <= 1}}">星级：青铜</text>
+        <text class="runLevel" wx:elif="{{runNameItem.runLevel <= 5}}">星级：铂金</text>
+        <!-- <text class="runLevel" wx:elif="{{{runLevel >= 3}}">星级：黄金</text> -->
+        <!-- <text class="runLevel" wx:elif="{{{runLevel >= 5}}">星级：铂金</text>
+        <text class="runLevel" wx:elif="{{{runLevel >= 7}}">星级：钻石</text>
+        <text class="runLevel" wx:elif="{{{runLevel >= 10}}">星级：星耀</text> -->
+        <text class="runLevel" wx:else>星级：王者</text>
+      </block>
+    </view>
+  </view>
+</block>
+

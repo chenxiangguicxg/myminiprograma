@@ -1,0 +1,5 @@
+<view class="imageContainer">
+  <block wx:for="{{imageItems}}" wx:key="id">
+    <x-imageItem imageItem="{{item}}"/>
+  </block> 
+</view>
