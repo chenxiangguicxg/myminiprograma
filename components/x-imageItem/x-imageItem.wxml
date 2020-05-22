@@ -1,4 +1,5 @@
-<view class="imageitem">
+<view class="imageitem {{isDelItem?'deleteItem':''}}" bindlongpress="_delImageItem">
   <image class="imageSelf" src="{{imageItem.imageItemUrl}}"  mode=""/>
   <view class="imageName">{{imageItem.imageItemName}}</view> 
+  <view class="delBtn" hidden="{{!isDelItem}}" bindtap="_handlerDelete">X</view>
 </view>
