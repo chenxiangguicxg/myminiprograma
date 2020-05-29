@@ -60,6 +60,13 @@
 					"id": -1,
 					"name": "运动类型",
 					"pathName": "pages/runList/runList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/mine",
 					"scene": null
 				}
 			]

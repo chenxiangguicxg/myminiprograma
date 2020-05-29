@@ -1,0 +1,9 @@
+.activityOpt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activityShare {
+  flex: 1;
+  text-align: right;
+}

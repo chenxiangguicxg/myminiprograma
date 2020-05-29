@@ -1,0 +1,13 @@
+<template name="mineTmp">
+  <view>
+    <image src="/assets/images/1.jpg"/>
+    <text>{{activityName}}</text>
+    <view class="activityOpt">
+      <text class="iconfont icon-dianzan-nor" bindtap="_isLike(e)"></text>
+      <!-- <view class="activityZan">{{activityZan}}</view>
+      <view class="activityComment">{{activityComment}}</view>
+      <view class="activityCollect">{{activityCollect}}</view>
+      <view class="activityShare">{{activityShare}}</view> -->
+    </view>
+  </view>
+</template>

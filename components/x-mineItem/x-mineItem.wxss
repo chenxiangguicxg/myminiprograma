@@ -1,0 +1,17 @@
+/* components/x-mineItem/x-mineItem.wxss */
+/* 子组件是独立模块 */
+@import "/assets/css/iconfont.wxss";
+
+.activityOpt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activityShare {
+  flex: 1;
+  text-align: right;
+}
+
+.activeOpt {
+  color: aquamarine;
+}

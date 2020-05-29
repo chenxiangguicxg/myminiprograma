@@ -1,2 +1,7 @@
 <!--pages/runList/runList.wxml-->
-<x-runItem/> 
+<view class="runTypeContainer" bindtap="_handleTap">
+  <block wx:for="{{runItems}}" wx:key="id">
+    <x-runItem id="{{item.id}}" runTypeItem="{{item}}"/> 
+  </block>
+</view>
+
